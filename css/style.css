@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url(../imgs/bg.jpg); */
+    font-family: 'Cairo', sans-serif;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+img {
+    max-width: 100%;
+}
+header {
+    padding: 0px 20px;
+    /* background-color: #00000094; */
+}
+.toggle {
+    font-size: 30px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+nav .menu {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+nav button {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #000;
+    transition: 0.3s;
+}
+nav button:hover {
+    /* border: 1px solid transparent; */
+}
+.container {
+    padding-bottom: 100px;
+    padding: 0px 40px 50px 40px;
+}
+section {
+    padding-top: 50px;
+}
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro {
+    color: #000;
+}
+.intro p {
+    color: #fff;
+    line-height: 30px;
+}
+.intro h1 {
+    font-size: 35px;
+}
+form {
+    margin-top: 30px;
+    display: flex;
+}
+input[type = email] {
+    background-color: #87c80a;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+input[type = email]::placeholder {
+    color: #000;
+}
+input[type = submit] {
+    padding: 10px 15px;
+    background-color: #2151a1;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15px;
+}
+.image {
+    max-width: 300px;
+}
+.review {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.review img {
+    max-width: 70px;
+}
+.review .main-span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.review span i {
+    color: #FFD700;
+}
+@media screen and (max-width: 771px) {
+    nav {
+        padding: 20px 30px;
+    }
+    .container {
+        padding: 20px 30px;
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .image {
+        padding: 30px 0;
+    }
+}

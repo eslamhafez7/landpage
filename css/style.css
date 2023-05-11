@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 body {
-    /* background-image: url(../imgs/bg.jpg); */
     font-family: 'Cairo', sans-serif;
-    /* background-attachment: fixed; */
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 img {
     max-width: 100%;
 }
-header {
+.header {
     padding: 0px 20px;
-    /* background-color: #00000094; */
 }
 .toggle {
     font-size: 30px;
@@ -40,9 +35,6 @@ nav button {
     padding: 10px 20px;
     color: #000;
     transition: 0.3s;
-}
-nav button:hover {
-    /* border: 1px solid transparent; */
 }
 .container {
     padding-bottom: 100px;
